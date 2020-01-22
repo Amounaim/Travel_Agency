@@ -1,0 +1,485 @@
+#hd{
+   
+    width: 100%;
+    height:590px;
+}
+            
+#hd1{
+    position: relative;
+    background-color: dodgerblue;
+    background-image:linear-gradient(rgba(1,.5,1,1),rgba(0,0,0,0.5));
+    opacity: .2;
+    width: 100%;
+    height: 10%;
+    top:    -122%;
+}
+#sign{
+    position: absolute;
+    top: 2%;
+    left: 54%;
+    border-style: none;
+    border: none;
+   
+}
+
+ul{
+    
+    top: 14%;
+    float: right;
+    left: 47%;
+    list-style-type: none;
+    margin-top: 10px;
+}           
+.main ul{
+    position: absolute;
+    top: 13%;
+    float: right;
+    left: 48%;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block; /* idaro en ligne */     
+}
+
+#sign ul li a{  /* hna kit7ayad l border*/
+    text-decoration: none;
+    color: white;
+    padding: 1px 12px 1px 12px;
+    border: 1px solid transparent;
+    transition: .6s ease;
+}
+#sign ul li a:hover{
+    background-color: darkslategrey;
+    color: white;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .6s ease;
+}
+.main ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+   background-color: white;
+    color: #000; 
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    
+    top: 12%;
+
+}
+.logo img{
+
+    width: 90px;
+    height: auto;
+  
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+/*
+#hd1   a,img{
+    float: left;
+    color: white;
+} */
+
+.title{
+    position: relative;
+    margin-top: -414px;
+    left: 22%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 60px;
+}
+
+.button{
+    position: absolute;
+    top: 69%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid red;
+    padding: 4px 20px 4px 20px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    
+}
+
+.duration{
+    position: relative;
+    top: 69px;
+    margin-top: -13px;
+    margin-left: 1%;
+    transform: translate(-50%,-50%);
+}
+#ts{
+    position: relative;
+    top: 39px;
+    left: 136%;
+    transform: translate(-50%,-50%);
+}
+/* ======table+++++++++++*/
+.table{
+    position: relative;
+    top:252px ;
+    
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-color:;
+}
+
+.table tr td{
+   width: 5px; 
+    
+}
+.table tr td input{
+    padding: 12px;
+    height: 50px;
+    width: 234px;  
+}
+#td1 button{
+    width: 205px;
+    padding: 8.5px;
+    background-color: red;
+}
+
+#td1 input{
+    width: 490px;
+}
+#tdl button{
+    width: 235px;
+    padding: 8.5px;
+    background-color: red;
+    height: 50px;
+}
+
+
+#btn1{
+    width: 100%;
+    background-color:crimson;
+    color: azure;
+    font-size: 14px;
+    font-family:cursive;
+    cursor: pointer;
+    border: none;
+}
+
+/*=========  old 
+.table{
+    width: 200px;
+    padding: 16px;
+    left:772%;
+}
+.table{
+    position: relative;
+    top: -27%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+    background-color:;
+    overflow: hidden;
+}
+
+#td1 input{
+    width: 420px;
+}
+#tdl button{
+    width: 205px;
+    padding: 8.5px;
+    background-color: red;
+}
+
+.table table tr td input{
+    padding: 16px;
+    height: 20px;
+}
+
+#btn1{
+    width: 100%;
+    background-color:crimson;
+    color: azure;
+    font-size: 14px;
+    font-family:cursive;
+    cursor: pointer;
+    border: none;
+}
+
+====*/
+/*==============*/
+/*==============*/
+
+.duration{
+    position: absolute;
+    top: 58%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+}
+.discount{
+    position: absolute;
+    top: 55.0%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+}
+
+.popular{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+#title1{
+    text-align: center ;
+    
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+/* text in card*/
+
+.content1{
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inner .content1 {
+  position: absolute;
+  bottom: 113px;
+  left: -1%;
+  width: 20px;
+  height: 30px;
+  background:#FF0152;
+  transition: 0.5s;
+  overflow: hidden;
+  color: white;
+  transform: rotate(-36deg);
+  box-sizing: border-box;
+  
+}
+.inner .title1 {
+  position: absolute;
+  bottom: 60px;
+  left: 39%;
+  width: 20px;
+  height: 36px;
+  opacity: .9;
+  transition: 0.5s;
+  overflow: hidden;
+  color: white; 
+  
+  
+}
+.inner .title1 h4{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.inner .content1 h5{
+    margin: 0px 42px 0px 22px;
+}
+ /* card mvt*/
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+/* =========*/
+
+
+/* ===LightBox Gallery =*/
+
+.gallery-block{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.gallery-block.compact-gallery .item{
+    overflow: hidden;
+    margin-bottom: 0px;
+    background: black;
+    opacity: 1;
+}
+.gallery-block.compact-gallery .item .images{
+    transition: 0.8s ease;
+}
+.gallery-block.compact-gallery .item .info{
+    position: relative;
+    display: inline-block;
+}
+.gallery-block.compact-gallery .item .description{
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+    transition: 0.8s ease;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom , transparent , rgb(0,0,0,39));
+}
+.gallery-block.compact-gallery .item .description .description-heading{
+    font-size: 1em;
+    font-weight: bold;
+}
+.gallery-block.compact-gallery .item .description .description-body{
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 300px;
+}
+
+@media(min-width:576px){
+    .gallery-block.compact-gallery .item .description{
+        opacity: 0;
+    }
+    .gallery-block.compact-gallery .item .description:hover{
+        opacity: 1;
+    }
+    .gallery-block .zoom-on:hover .image{
+        transform: scale(1.3);
+        opacity: 0.7;
+    }
+}
+
+/* ====================*/
+
+/* ===Services =*/
+.services-section{
+    font-family:"montserrat",sans-serif;
+    box-sizing: border-box;
+    background-color: #223;
+    background-size: cover;
+    padding: 60px 0;
+    color: white;
+}
+
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.section-title{
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.services-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.services-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.services-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+.services-box:hover .services-icon{
+    background: #82ccdd;
+    color: #ddd;
+}
+
+.services-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.services-desc{
+    font-size: 14px;
+}
+
+@media screen and (max-width:960){
+    .services-box{
+        max-width: 45%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
